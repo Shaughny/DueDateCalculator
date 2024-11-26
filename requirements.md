@@ -5,28 +5,28 @@ production codes.
 ## The problem
 We are looking for a solution that implements a due date calculator in an issue tracking system.
 Your task is to implement the CalculateDueDate method:
-• Input: Takes the submit date/time and turnaround time.
-• Output: Returns the date/time when the issue is resolved.
+- Input: Takes the submit date/time and turnaround time.
+- Output: Returns the date/time when the issue is resolved.
 ## Rules
-• Working hours are from 9AM to 5PM on every working day, Monday to Friday.
-• Holidays should be ignored (e.g. A holiday on a Thursday is considered as a working day. A
+- Working hours are from 9AM to 5PM on every working day, Monday to Friday.
+- Holidays should be ignored (e.g. A holiday on a Thursday is considered as a working day. A
 working Saturday counts as a non-working day.).
-• The turnaround time is defined in working hours (e.g. 2 days equal 16 hours). If a problem
+- The turnaround time is defined in working hours (e.g. 2 days equal 16 hours). If a problem
 was reported at 2:12PM on Tuesday and the turnaround time is 16 hours, then it is due by
 2:12PM on Thursday.
-• A problem can only be reported during working hours. (e.g. All submit date values are set
+- A problem can only be reported during working hours. (e.g. All submit date values are set
 between 9AM to 5PM.)
-• Do not use any third-party libraries for date/time calculations (e.g. Moment.js, Carbon,
+- Do not use any third-party libraries for date/time calculations (e.g. Moment.js, Carbon,
 Joda, etc.) or hidden functionalities of the built-in methods.
 ## Additional info
-• You can choose your favourite programming language, however using JavaScript or
+- You can choose your favourite programming language, however using JavaScript or
 TypeScript would be a plus.
-• Do not implement the user interface or CLI.
-• The solution needs to be validated with an automated test suit.
-• Do not write a pseudo code. Write a code that you would commit/push to a repository, and
+- Do not implement the user interface or CLI.
+- The solution needs to be validated with an automated test suit.
+- Do not write a pseudo code. Write a code that you would commit/push to a repository, and
 which solves the given problem.
-• You have 24 hours to submit your solution.
-• You can submit your solution even if you have not finished it fully.
+- You have 24 hours to submit your solution.
+- You can submit your solution even if you have not finished it fully.
 ## Bonus – Not mandatory
-• Test-driven (TDD) solutions are especially welcome.
-• Clean Code makes us happy
+- Test-driven (TDD) solutions are especially welcome.
+- Clean Code makes us happy
