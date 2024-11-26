@@ -1,6 +1,12 @@
 const START_HOUR = 9;
 const END_HOUR = 17;
 
+
+/*   MAIN FUNCTION  */
+
+
+
+
 export const CalculateDueDate = (
   submitTime: Date,
   turnaroundHours: number
@@ -12,7 +18,12 @@ export const CalculateDueDate = (
   return dueDate;
 };
 
+
+
+
 /*   HELPER FUNCTIONS  */
+
+
 
 // Function to roll over the days and hours
 const processHours = (dueDate: Date, turnaroundHours: number): Date => {

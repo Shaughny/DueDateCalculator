@@ -1,12 +1,13 @@
-
-The problem
+# Due Date Calculator
+Thanks for handing in your application to a developer position at Emarsys. With this brief exercise
+we would like to assess your skills and capabilities on how you can implement algorithms and write
+production codes.
+## The problem
 We are looking for a solution that implements a due date calculator in an issue tracking system.
 Your task is to implement the CalculateDueDate method:
 • Input: Takes the submit date/time and turnaround time.
 • Output: Returns the date/time when the issue is resolved.
-
-Rules
-
+## Rules
 • Working hours are from 9AM to 5PM on every working day, Monday to Friday.
 • Holidays should be ignored (e.g. A holiday on a Thursday is considered as a working day. A
 working Saturday counts as a non-working day.).
@@ -17,9 +18,7 @@ was reported at 2:12PM on Tuesday and the turnaround time is 16 hours, then it i
 between 9AM to 5PM.)
 • Do not use any third-party libraries for date/time calculations (e.g. Moment.js, Carbon,
 Joda, etc.) or hidden functionalities of the built-in methods.
-
-
-Additional info
+## Additional info
 • You can choose your favourite programming language, however using JavaScript or
 TypeScript would be a plus.
 • Do not implement the user interface or CLI.
@@ -28,8 +27,6 @@ TypeScript would be a plus.
 which solves the given problem.
 • You have 24 hours to submit your solution.
 • You can submit your solution even if you have not finished it fully.
-
-
-Bonus – Not mandatory
+## Bonus – Not mandatory
 • Test-driven (TDD) solutions are especially welcome.
-• Clean Code makes us happy.
+• Clean Code makes us happy
